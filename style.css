@@ -42,7 +42,7 @@ ul {
 li, h3 {
   list-style:none;
 }
-input,button {
+.input,button {
   outline:none;
 }
 button {
@@ -68,7 +68,7 @@ label[for="add-item"] {
   margin: 0;
   text-transform: uppercase;
 }
-input[type="text"] {
+.input.task {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -80,7 +80,7 @@ input[type="text"] {
   font-family: Lato, sans-serif;
   color: #888;
 }
-input[type="text"]:focus {
+.task:focus {
   color: #333;
 }
 
@@ -89,7 +89,7 @@ label[for="add-item"] {
   display: block;
   margin: 0 0 20px;
 }
-input#add-item {
+#add-item {
   width: 318px;
 }
 
@@ -106,7 +106,7 @@ li > * {
   vertical-align: middle;
 }
 
-li > input[type="checkbox"] {
+li > .input.checkbox {
   margin: 0 10px;
 }
 li > label {
@@ -115,7 +115,7 @@ li > label {
   font-size: 18px;
   width: 226px;
 }
-li >  input[type="text"] {
+li >  .task {
   width: 226px
 }
 button.delete img {
@@ -134,13 +134,13 @@ ul#completed-tasks label {
 }
 
 /* Edit Task */
-ul li input[type=text] {
+ul li .input.task {
   display:none
 }
-ul li.edit-mode input[type=text] {
+ul li.edit-mode .input.task {
   display:inline-block;
   width:224px
 }
-ul li.edit-mode label {
+ul li.edit-mode label.task {
   display:none;
 }
