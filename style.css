@@ -35,7 +35,7 @@
   margin:0;
   padding: 0px;
 }
-li, .title-list {
+.list-item, .title-list {
   list-style:none;
 }
 .input,.button {
@@ -90,7 +90,7 @@ li, .title-list {
 }
 
 /* Task list */
-li {
+.list-item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -98,20 +98,20 @@ li {
   justify-content: space-between;
   align-items: center;
 }
-li > * {
+.list-item > * {
   vertical-align: middle;
 }
 
-li > .input.checkbox {
+.list-item > .input.checkbox {
   margin: 0 10px;
 }
-li > .label {
+.list-item > .label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
-li >  .task {
+.list-item >  .task {
   width: 226px
 }
 .delete-image {
@@ -130,14 +130,14 @@ li >  .task {
 }
 
 /* Edit Task */
-.list li .input.task {
+.list .list-item .input.task {
   display:none
 }
-.list li.edit-mode .input.task {
+.list .list-item.edit-mode .input.task {
   display:inline-block;
   width:224px
 }
-.list li.edit-mode .label.task {
+.list .list-item.edit-mode .label.task {
   display:none;
 }
 
