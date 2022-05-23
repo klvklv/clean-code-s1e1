@@ -105,7 +105,7 @@ li > * {
 li > .input.checkbox {
   margin: 0 10px;
 }
-li > label {
+li > .label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -124,7 +124,7 @@ li >  .task {
 }
 
 /* Completed */
-#completed-tasks label {
+#completed-tasks .label {
   text-decoration: line-through
   color: #888;
 }
@@ -137,7 +137,7 @@ li >  .task {
   display:inline-block;
   width:224px
 }
-.list li.edit-mode label.task {
+.list li.edit-mode .label.task {
   display:none;
 }
 
