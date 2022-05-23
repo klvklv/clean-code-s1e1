@@ -35,11 +35,11 @@ body {
 .add-wrapper {
   display: flex;
 }
-ul {
+.list {
   margin:0;
   padding: 0px;
 }
-li, .title-task {
+li, .title-list {
   list-style:none;
 }
 .input,button {
@@ -58,7 +58,7 @@ button:hover {
   color: #3a3a3a;
 }
 /* Heading */
-.title-task,
+.title-list,
 label[for="add-item"] {
   color: #333;
   font-weight: 700;
@@ -128,19 +128,19 @@ li >  .task {
 }
 
 /* Completed */
-ul#completed-tasks label {
+#completed-tasks label {
   text-decoration: line-through
   color: #888;
 }
 
 /* Edit Task */
-ul li .input.task {
+.list li .input.task {
   display:none
 }
-ul li.edit-mode .input.task {
+.list li.edit-mode .input.task {
   display:inline-block;
   width:224px
 }
-ul li.edit-mode label.task {
+.list li.edit-mode label.task {
   display:none;
 }
