@@ -39,7 +39,7 @@ ul {
   margin:0;
   padding: 0px;
 }
-li, h3 {
+li, .title-task {
   list-style:none;
 }
 .input,button {
@@ -58,7 +58,7 @@ button:hover {
   color: #3a3a3a;
 }
 /* Heading */
-h3,
+.title-task,
 label[for="add-item"] {
   color: #333;
   font-weight: 700;
