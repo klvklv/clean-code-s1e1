@@ -17,11 +17,7 @@
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
-  .header { 
-    text-align: center;
-  }
-}
+
 .main-section {
   display: block;
   width: 500px;
@@ -59,7 +55,7 @@ button:hover {
 }
 /* Heading */
 .title-list,
-label[for="add-item"] {
+.add-label {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -85,7 +81,7 @@ label[for="add-item"] {
 }
 
 /* New Task */
-label[for="add-item"] {
+.add-label {
   display: block;
   margin: 0 0 20px;
 }
@@ -143,4 +139,10 @@ li >  .task {
 }
 .list li.edit-mode label.task {
   display:none;
+}
+
+@media (max-width:768px) {
+  .header { 
+    text-align: center;
+  }
 }
