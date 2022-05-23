@@ -112,7 +112,7 @@
   font-size: 18px;
   width: 226px;
 }
-.list-item >  .task {
+.list-item > .task {
   width: 226px;
 }
 .delete-image {
@@ -131,14 +131,14 @@
 }
 
 /* Edit Task */
-.list .list-item .input.task {
+.list-item .input.task {
   display: none;
 }
-.list .list-item.edit-mode .input.task {
+.list-item.edit-mode .input.task {
   display: inline-block;
   width: 224px
 }
-.list .list-item.edit-mode .label.task {
+.list-item.edit-mode .label.task {
   display: none;
 }
 
